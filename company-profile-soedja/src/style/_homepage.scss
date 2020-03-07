@@ -1,0 +1,723 @@
+#homepage {
+    margin-top: 120px;
+    background-color: white;
+    #homepage-hero {
+        width: 100%;
+        background-color: white;
+        .ilustrasi-hompage {
+            height: 630px;
+            width: 740px;
+            padding: 0;
+            margin: 0;
+        }
+    
+        .homepage-hero-introduction {
+            color: #F72948;
+            font-size: 16px;
+            margin-bottom: 50px;
+        }
+    
+        .hompage-hero-jargon {
+            font-family: 'pt-serif-bold';
+            font-size: 50px;
+            margin-bottom: 40px;
+        }
+    
+        .homepage-hero-description {
+            font-size: 20px;
+            margin-bottom: 68px;
+        }   
+    }
+
+    #homepage-middle {
+        .middle-brown-container {
+            position: relative;
+            height: 375px;
+            background-color: #F9F9FB;
+            .middle-brown-content{
+                position: absolute;
+                z-index: 1;
+                margin-top: 70px;
+                width: 100%;
+
+                .middle-brown-container-left {
+                    .middle-brown-left-jargon {
+                        h1 {
+                            font-family: 'pt-serif-bold';
+                            font-size: 40px;
+                            .count-up {
+                                font-family: 'pt-serif-bold';
+                            }
+                        }
+                        margin-bottom: 45px;
+                    }
+                    .middle-brown-deskripsi {
+                        p {
+                            font-size: 22px;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                .middle-brown-container-right {
+                    position: relative;
+                    .liputan-cnn {
+                        height: 355px;
+                    }
+                    .button-cnn {
+                        position: absolute;
+                        z-index: 2;
+                        transform: translateX(-50%);
+                        left: 0;
+                        height: 127px;
+                        cursor: pointer;
+                    }
+                    .video-description-container{
+                        position: absolute;
+                        z-index: 1;
+                        background-color: white;
+                        border-radius: .5rem .5rem 0px 0px;
+                        bottom: 0;
+                        .video-title-description{
+                            font-family: 'ubuntu-bold';
+                            font-size: 15px;
+                            margin: 0;
+                        }
+                        .vidio-title-description-regular {
+                            font-size: 15px;
+                            margin: 0;
+                        }
+                        .logo-cnn-video {
+                            transform: translateY(-15%);
+                            height: 95px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    #homepage-partner {
+        background-color: white;
+        height: 375px;
+        width: 100%;
+        .klien-section-title {
+            p {
+                color: #787988;
+            }
+        }
+        .logo-klien-top {
+            margin-top: 120px;
+            margin-bottom: 45px;
+        }
+
+        .home-page-partner-right-content {
+            cursor: pointer;
+        }
+
+        .lihat-di-youtube-title{
+            margin: 0;
+            color: #F72948;
+        }
+    }
+
+    #footer {
+        height: 550px;
+        background-color: #F9F9FB;
+        .footer-section-left {
+            .footer-section-left-container {
+                .footer-left-title {
+                    font-family: 'ubuntu-bold';
+                    font-size: 18px;
+                }
+                .footer-left-content {
+                    p {
+                        font-size: 14px;
+                        color: #787988;
+                        cursor: pointer;
+                        margin-bottom: 18px;
+                    }
+                }
+            }
+        }
+
+        .footer-section-right {
+            .kirim-link-whatsapp-title {
+                font-family: 'ubuntu-bold';
+                font-size: 17px;
+                margin: 0;
+            }
+            .footer-belum-tersedia {
+                height: 40px;
+                width: 115px;
+                background-color: #f7d7da;
+                border-radius: 5%;
+                p {
+                    font-size: 11px;
+                    margin: 0;
+                }
+            }
+            .nomor-telepon-kolom {
+                .nomor-telepon {
+                    font-size: 14px;
+                }
+                .nomor-telepon-input {
+                    height: 78px;
+                    background-color: #EBEBEB;
+                    .country-code {
+                        height: inherit;
+                        background-color: #282B4A;
+                        p {
+                            font-family: 'ubuntu-bold';
+                            color: white;
+                            font-size: 16px;
+                            margin: 0;
+                        }
+                    }
+
+                    .nomor-telepon-container {
+                        #whatsappnumb {
+                            border-top-style: hidden;
+                            border-right-style: hidden;
+                            border-left-style: hidden;
+                            border-bottom-style: hidden;
+                            background-color: transparent;
+                            font-size: 15px;
+                        }
+                        #whatsappnumb:focus {
+                            outline: none;
+                        }
+                        #whatsappnumb::-webkit-outer-spin-button,#whatsappnumb::-webkit-inner-spin-button {
+                            -webkit-appearance: none;
+                            margin: 0;
+                        }
+                        .nomor-telepon-content-input-arrow {
+                            font-size: 25px;
+                            color: #F62848;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            .atau-gunakan-email {
+                p {
+                    font-family: 'ubuntu-bold';
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    #homepage-logo-footer {
+        height: 155px;
+        .homepage-logo-footer-left {
+            .homepage-footer-logo-company-name {
+                font-family: 'ubuntu-bold';
+                font-size: 12px;
+                color: #787988;
+                margin: 0;
+                margin-left: 45px;
+            }
+        }
+
+        .footer-soedja-logo {
+            height: 41px;
+            width: 42px;
+        }
+
+        .footer-bianglala {
+           height: 45px;
+        }
+    }
+
+}
+
+/* MEDIA QUERY */
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    #homepage {
+        #homepage-hero {
+            .hompage-hero-jargon {
+                font-size: 42px;
+            }
+
+            .ilustrasi-hompage {
+                height: 575px;
+            }
+
+            .homepage-hero-introduction {
+                font-size: 14px;
+            }
+
+            .homepage-hero-description {
+                font-size: 17px;
+            }
+        }
+
+        #homepage-middle {
+            .middle-brown-container {                
+                .middle-brown-content{  
+                    margin-top: 85px;  
+                    .middle-brown-container-right {
+                        .button-cnn {
+                            height: 118px;
+                        }
+                        .video-description-container{
+                            
+                            .video-title-description{
+                                font-size: 13px;
+                            }
+                            .vidio-title-description-regular {
+                                font-size: 13px;
+                            }
+                            .logo-cnn-video {
+                                height: 85px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+
+        #footer {
+            .footer-section-left {
+                .footer-section-left-container {
+                    .footer-left-title {
+                        font-size: 17px;
+                    }
+                    .footer-left-content {
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+    
+            .footer-section-right {
+                .kirim-link-whatsapp-title {
+                    font-size: 14px;
+                }
+                .footer-belum-tersedia {
+                    width: 105px;
+                    p {
+                        font-size: 10px;
+                    }
+                }
+                .nomor-telepon-kolom {
+                    .nomor-telepon {
+                        font-size: 12px;
+                    }
+                    .nomor-telepon-input {
+                        .country-code {
+                            p {
+                                font-size: 13px;
+                            }
+                        }
+    
+                        .nomor-telepon-container {
+                            .nomor-telepon-content-input-arrow {
+                                font-size: 18.5px;
+                            }
+                        }
+                    }
+                }
+    
+                .atau-gunakan-email {
+                    p {
+                        font-size: 13.5px;
+                    }
+                }
+            }
+        }
+    
+        #homepage-logo-footer {
+            height: 135px;
+            .homepage-logo-footer-left {
+                .homepage-footer-logo-company-name {
+                    font-size: 10px;
+                    margin-left: 45px;
+                }
+            }
+
+            .footer-soedja-logo {
+                height: 31px;
+                width: 32px;
+            }
+
+            .footer-bianglala {
+                height: 35px;
+            }
+        }
+    }
+}
+
+@media all and (width: 1280px) and (min-height : 611px) and (max-height : 689px) {
+    #homepage {
+        #homepage-hero {
+            .hompage-hero-jargon {
+                font-size: 42px;
+            }
+
+            .ilustrasi-hompage {
+                height: 480px;
+                width: 640px;
+            }
+
+            .homepage-hero-introduction {
+                font-size: 14px;
+            }
+
+            .homepage-hero-description {
+                font-size: 17px;
+            }
+        }
+
+        #homepage-middle {
+            .middle-brown-container {                
+                .middle-brown-content{  
+                    margin-top: 88px;  
+                }
+            }
+    
+        }
+    }
+}
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    #homepage {
+        margin-top: 110px;
+        #homepage-hero {
+            .ilustrasi-hompage {
+                height: 520px;
+                width: 100%;
+            }
+            .hompage-hero-jargon {
+                font-size: 35px;
+            }
+            .homepage-hero-introduction {
+                font-size: 13px;
+            }
+            .homepage-hero-description {
+                font-size: 14px;
+            } 
+        }
+
+        #homepage-middle {
+            .middle-brown-container {
+                height: 350px;
+                .middle-brown-content{
+                    .middle-brown-container-left {
+                        .middle-brown-left-jargon {
+                            h1 {
+                                font-size: 34px;
+                            }
+                            margin-bottom: 45px;
+                        }
+                        .middle-brown-deskripsi {
+                            p {
+                                
+                                font-size: 18px;                                
+                            }
+                        }
+                    }
+    
+                    .middle-brown-container-right{                        
+                        .liputan-cnn {
+                            height: 310px;
+                        }
+                        .button-cnn {
+                            height: 108px;
+                        }
+                        .video-description-container{
+                            .video-title-description{
+                                font-size: 10.7px;
+                            }
+                            .vidio-title-description-regular {
+                                font-size: 10.7px;
+                            }
+                            .logo-cnn-video {
+                                height: 75px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+
+        #homepage-partner {
+            .logo-klien-top {
+                .client-logo-top {
+                    height: 40px;
+                }
+            }
+
+            .logo-klien-bot { 
+                .client-logo-bot {
+                    height: 40px;
+                }
+            }
+    
+            .home-page-partner-right-content {
+                cursor: pointer;
+            }
+
+            .homepage-partner-logo-youtube {
+                height: 25px;
+            }
+    
+            .lihat-di-youtube-title{
+                font-size: 11px;
+            }
+        }
+
+        #footer {
+            .footer-section-left {
+                .footer-section-left-container {
+                    .footer-left-title {
+                        font-size: 15px;
+                    }
+                    .footer-left-content {
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+    
+            .footer-section-right {
+                .kirim-link-whatsapp-title {
+                    font-size: 11.5px;
+                }
+                .nomor-telepon-kolom {
+                    .nomor-telepon {
+                        font-size: 11px;
+                    }
+                    .nomor-telepon-input {
+                        .bendera-indonesia {
+                            height: 24px;
+                        }
+
+                        .country-code {
+                            p {
+                                font-size: 12px;
+                            }
+                        }
+    
+                        .nomor-telepon-container {
+                            #whatsappnumb {
+                                font-size: 13px;
+                            }
+                            .nomor-telepon-content-input-arrow {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+    
+                .atau-gunakan-email {
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        #homepage-logo-footer {
+            height: 135px;
+            .homepage-logo-footer-left {
+                .homepage-footer-logo-company-name {
+                    font-size: 11px;
+                    margin-left: 25px;
+                }
+            }
+
+            .footer-soedja-logo {
+                height: 31px;
+                width: 32px;
+            }
+
+            .footer-bianglala {
+                height: 32px;
+            }
+        }
+    }
+
+}
+ 
+@media all and (min-width: 480px) and (max-width: 768px) {
+    #homepage {
+        margin-top: 100px;
+        #homepage-hero {
+            .ilustrasi-hompage {
+                height: 420px;
+                width: 100%;
+            }
+            .hompage-hero-jargon {
+                font-size: 26px;
+            }
+            .homepage-hero-introduction {
+                font-size: 11px;
+            }
+            .homepage-hero-description {
+                font-size: 11px;
+            } 
+        }
+
+        #homepage-middle {
+            .middle-brown-container {
+                height: 255px;
+                .middle-brown-content{
+                    .middle-brown-container-left {
+                        .middle-brown-left-jargon {
+                            h1 {
+                                font-size: 26px;
+                            }
+                            margin-bottom: 35px;
+                        }
+                        .middle-brown-deskripsi {
+                            p {
+                                font-size: 15px;        
+                            }
+                        }
+                    }
+    
+                    .middle-brown-container-right{                        
+                        .liputan-cnn {
+                            height: 225px;
+                        }
+                        .button-cnn {
+                            height: 90px;
+                        }
+                        .video-description-container{
+                            .video-title-description{
+                                font-size: 8px;
+                            }
+
+                            .vidio-title-description-regular {
+                                font-size: 8px;
+                            }
+
+                            .logo-cnn-video {
+                                height: 55px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+
+        #homepage-partner {
+            height: 350px;
+            .klien-section-title {
+                font-size: 12px;
+            }
+
+            .logo-klien-top {
+                margin-top: 60px;
+                .client-logo-top {
+                    height: 27px;
+                }
+            }
+
+            .logo-klien-bot {
+                .client-logo-bot {
+                    height: 34px;
+                }
+            }
+        }
+
+        #footer {
+            height: 500px;
+            .footer-section-left {
+                .footer-section-left-container {
+                    .footer-left-title {
+                        font-size: 13px;
+                    }
+                    .footer-left-content {
+                        p {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+    
+            .footer-section-right {
+                .kirim-link-whatsapp-title {
+                    font-size: 11px;
+                }
+
+                .footer-belum-tersedia {
+                    height: 40px;
+                    width: 100px;
+                    // background-color: #f7d7da;
+                    // border-radius: 5%;
+                    p {
+                        // font-family: 'ubuntu-bold';
+                        font-size: 9px;
+                        // margin: 0;
+                    }
+                }
+
+                .nomor-telepon-kolom {
+                    .nomor-telepon {
+                        font-size: 11px;
+                    }
+                    .nomor-telepon-input {
+                        .bendera-indonesia {
+                            height: 15px;
+                        }
+
+                        .country-code {
+                            p {
+                                font-size: 10px;
+                            }
+                        }
+    
+                        .nomor-telepon-container {
+                            #whatsappnumb {
+                                font-size: 11px;
+                            }
+                            .nomor-telepon-content-input-arrow {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+    
+                .atau-gunakan-email {
+                    p {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+
+        #homepage-logo-footer {
+            height: 120px;
+            .homepage-logo-footer-left {
+                .homepage-footer-logo-company-name {
+                    font-size: 10px;
+                    margin-left: 20px;
+                }
+            }
+
+            .footer-soedja-logo {
+                height:29px;
+                width: 32px;
+            }
+
+            .footer-bianglala {
+                height: 28px;
+            }
+        }
+    }
+}
+
+// @media all and (max-width: 480px) { 
+    
+// }

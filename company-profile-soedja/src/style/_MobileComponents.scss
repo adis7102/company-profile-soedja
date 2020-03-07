@@ -1,0 +1,83 @@
+.mobile-navbar {
+    height: 88px;
+    background-color: white;
+    .logo-navbar-mobile {
+        position: absolute;
+        z-index: 1041;
+    }
+}
+
+.modal-launching-body-mobile {
+    .modal-launching-container-mobile {
+        .modal-launching-content-title-mobile {
+            text-align: center;
+            margin-top: 40px;
+            h1 {
+                font-family: 'pt-serif-bold';
+                font-size: 32px;
+            }
+        }
+
+        .modal-content-description-mobile {
+            text-align: center;
+            margin-top: 22px;
+            p {
+                margin: 0;
+                font-size: 18px;
+            }
+        }
+
+        .modal-content-sub-description-mobile {
+            text-align: center;
+            margin-top: 22px;
+            p {
+                margin: 0;
+                font-size: 15px;
+                color: #787988;
+            }
+        }
+
+        .countdown-container-mobile {
+            text-align: center;
+            margin-top: 28px;
+            .countdown-title-mobile {
+                margin: 0;
+                font-size: 11px;
+                color: #F72948;
+            }
+
+            .countdown-box-mobile {
+                border: 2px solid #eeeeee;
+                border-radius: 5px;
+                margin-top: 18px;
+            }
+
+            .launching-countdown-timer-mobile {
+                padding-top: 8px;
+                padding-bottom: 13px;
+                .launching-countdown-timer-time-mobile {
+                    margin-left: 28px;
+                    margin-right: 28px;
+                    h1 {
+                        font-family: 'yantramanav-bold';
+                        font-size: 32px;
+                    }
+                    p {
+                        color: #787988;
+                        margin: 0;
+                        font-size: 9px;
+                    }
+                }
+            }
+        }
+
+        .countdown-kembali-mobile {
+            margin-top: 32px;
+            p {
+                font-size: 15px;
+                color: #F72948;
+            }
+            margin-bottom: 22px;
+        }
+    }
+}

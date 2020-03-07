@@ -1,0 +1,284 @@
+#homepage-mobile {
+    margin-top: 110px;
+    background-color: white;
+    // overflow: hidden;
+    #homepage-hero-mobile {
+        background-color: white;
+        .homepage-hero-introduction-mobile {
+            color: #F72948;
+            font-size: 14px;
+            margin-bottom: 56px;
+            font-family: 'ubuntu';
+        }
+    
+        .hompage-hero-jargon-mobile {
+            font-family: 'pt-serif-bold';
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 0;
+        }
+
+        .homepage-hero-jargon-bot-mobile {
+            font-family: 'pt-serif-bold';
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 50px;
+        }
+    
+        .homepage-hero-description-mobile {
+            font-family: 'ubuntu';
+            font-size: 15px;
+            margin: 0;
+        }  
+
+        .homepage-hero-description-bot-mobile {
+            font-family: 'ubuntu';
+            font-size: 15px;
+            margin-bottom: 70px;
+        }   
+
+        .homepage-hero-top {
+           margin-bottom: 56px;
+        }
+    }
+
+    #homepage-middle-mobile {
+        .middle-brown-container-mobile {
+            background-color: #F9F9FB;
+            width: 100%;
+            .program-title {
+                font-family: 'ubuntu-bold';
+                font-size: 16px;
+            }
+            .hompage-scrollmenu-mobile {
+                overflow: auto;
+                white-space: nowrap;
+                padding-left: 5px;
+            }
+            .hompage-scrollmenu-mobile .hompage-scrollmenu-content-mobile {
+                display: inline-block;
+                text-align: center;
+                // padding: 9px;
+                padding-right: 8px;
+                padding-top: 6px;
+                text-decoration: none;
+                .program-mobile-container {
+                    width: 155px;
+                    height: 235px;
+                    background-color: white;
+                    text-align: center;
+                    .program-mobile-container-title{
+                        font-size: 13.5px;
+                    }
+                    .program-mobile-container-subtitle-top {
+                        margin-bottom: 0;
+                        font-size: 8.5px;
+                        color: #787988;
+                    }
+                    .program-mobile-container-subtitle {
+                        font-size: 8.5px;
+                        color: #787988;
+                    }
+                }
+            }
+
+            .middle-brown-container-content-mobile {
+                .middle-brown-content-jargon-mobile {
+                    margin-bottom: 56px;
+                    h1, .count-up {
+                        font-family: 'pt-serif-bold';
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+    }
+
+    #homepage-partner-mobile {
+        margin-bottom: 56px;
+        .homepage-partner-mobile-title {
+            p {
+                font-size: 11px;
+                color: #787988;
+            }
+        }
+        
+        .partner-logo-three {
+            width: 100%;
+            .client-logo-police {
+                padding-right: 20px;
+            }
+
+            .client-logo-kominfo {
+                padding-right: 20px;
+            }
+        }
+    }
+
+    #video-container-mobile {
+        margin-bottom: 56px;
+        .video-container-content-mobile {
+            position: relative;
+            .button-cnn-mobile {
+                position: absolute;
+                z-index: 9;
+            }
+
+            .video-description-container-mobile {
+                position: absolute;
+                z-index: 8;
+                bottom: 0;
+                background-color: white;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                height: 60px;
+                .video-title-description-mobile {
+                    font-family: 'ubuntu-bold';
+                    font-size: 14.5px;
+                    margin: 0;
+                }
+
+                .logo-cnn-video-mobile {
+                    transform: translateY(-20%);
+                    height: 85px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .mobile-video-caption {
+            margin-top: 15px;
+            p {
+                font-size: 12px;
+                margin: 0;
+            }
+       }
+
+       .lihat-di-youtube-container {
+           p {
+               margin: 0;
+               color: #F72948;
+               font-size: 11px;
+           }
+       }
+    }
+
+    #footer-mobile-top {
+        background-color: #F9F9FB;
+        padding-bottom: 40px;
+        .footer-container-mobile {
+            .footer-content-top-mobile {
+                height: 190px;
+                .footer-content-top-title {
+                    font-family: 'ubuntu-bold';
+                    font-size: 15px;
+                    margin: 0;
+                    margin-bottom: 27px;
+                }
+                .footer-content-top-links {
+                    p {
+                        font-size: 11px;
+                        color: #787988;
+                    }
+                }
+                .footer-content-top-links-three {
+                    p {
+                        font-size: 11px;
+                        color: #787988;
+                        margin: 4px;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer-mobile-bot {
+        background-color: #F9F9FB;
+        .footer-form-title-container {
+            margin-bottom: 40px;
+            .title-form-footer {
+                p {
+                    font-family: 'ubuntu-bold';
+                    font-size: 14px;
+                }
+            }
+            .alert-belum-tersedia {
+                background-color: #f7d7da;
+                width: 98px;
+                height: 50px;
+                border-radius: 5px;
+                p {
+                    font-size: 10px;
+                    margin: 0;
+                }
+            }
+        }
+
+        .footer-form-mobile {
+            padding-bottom: 40px;
+            .mobile-footer-form-label {
+                font-size: 11.5px;
+            }
+            .nomor-telepon-input-mobile {
+                height: 85px;
+                background-color: #EBEBEB;
+                border: 2px solid #bdbdbd;
+                .country-code-mobile {
+                    height: 81px;
+                    background-color: #282B4A;
+                    p {
+                        color: white;
+                        font-size: 13px;
+                        margin: 0;
+                    }
+                    .bendera-indonesia-mobile {
+                        width: 25px
+                    }
+                }
+                .nomor-telepon-container-mobile {
+                    #whatsappnumb-mobile {
+                        border-top-style: hidden;
+                        border-right-style: hidden;
+                        border-left-style: hidden;
+                        border-bottom-style: hidden;
+                        background-color: transparent; 
+                        font-family: 'ubuntu-bold';
+                        font-size: 15px;
+                    }
+                    #whatsappnumb-mobile:focus {
+                        outline: none;
+                    }
+                    #whatsappnumb-mobile::-webkit-outer-spin-button,#whatsappnumb-mobile::-webkit-inner-spin-button {
+                        -webkit-appearance: none;
+                        margin: 0;
+                    }
+                    .nomor-telepon-content-input-arrow-mobile {
+                        font-size: 16px;
+                        color: #F62848;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .atau-gunakan-alamat-email-mobile {
+            p {
+                font-size: 15px;
+                font-family: 'ubuntu-bold';
+            }
+        }
+    }
+
+    #footer-logo {
+        .footer-logo-content {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            p {
+                margin-top: 25px;
+                font-size: 9px;
+                color: #787988;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

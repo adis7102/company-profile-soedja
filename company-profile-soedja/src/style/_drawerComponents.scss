@@ -1,0 +1,95 @@
+.css-sourceMap-modules-importLoaders-1-localIdentName-ReactDrawer__overlay___2QFmC-sass {
+    z-index: 1040;
+}
+
+.css-sourceMap-modules-importLoaders-1-localIdentName-ReactDrawer__drawer___2r5VH-sass {
+    z-index: 1040;
+    background-color: white !important;
+    overflow: auto;
+}
+
+#drawer-component {
+    #drawer-top {
+        margin-top: 36px;
+        .drop-button-lang-drawer {
+            background-color: transparent;
+          font-size: 14px;
+          border: none;
+          .icon-globe-drawer {
+              margin-right: 14px;
+          }
+          .dropdown-icon-drawer {
+              font-size: 15px;
+              margin-left: 16px;
+          }
+        }
+        
+        .dropdown-lang-drawer {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content-lang-drawer {
+          display: none;
+          position: absolute;
+          width: 100%;
+          box-shadow: 0px 0px /* bawah */ 4px /* kirikanan */ 0px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+          a {
+            text-decoration: none;
+          }
+          background-color: white;
+        }
+        
+        .dropdown-content-lang-drawer a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          font-size: 13px;
+        }
+        
+        .dropdown-lang-drawer:hover .dropdown-content-lang-drawer {
+          display: block;
+        }
+
+        .close-button {
+            font-size: 18px;
+        }
+    }
+
+    #drawer-middle {
+        margin-top: 36px;
+        .drawer-middle-title {
+            margin-bottom: 56px;
+            p {
+                font-size: 19px;
+                font-family: 'ubuntu-bold';
+            }
+        }
+        .drawer-middle-container {
+            margin-bottom: 46px;
+            .drawer-content-top {
+                p {
+                    font-size: 15px;
+                    margin: 0;
+                }
+            }
+
+            .drawer-content-bottom {
+                margin-top: 30px;
+                p {
+                    margin: 0;
+                    font-size: 12px;
+                    color:#787988;
+                }
+            }
+        }
+
+        #drawer-button {
+            margin-top: 26px;
+
+        }
+
+    }
+}
